@@ -59,9 +59,11 @@ The congregations pursuing housing on their land in Berkeley and the Bay Area ar
 Add: Opportunity Maps and congregations
 Add: % POC Map and congregations
 
-### Conclusions and Next Steps
+## Conclusions and Next Steps
 TKTKT
 Prototype YIGBY Map
 
+## Acknowledgements
+I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner Drew Liming for doing research to flesh out my list of YIGBY congregations.  
 
 ## References
