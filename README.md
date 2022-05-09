@@ -16,6 +16,7 @@ _From left to right:_
 _Top Row: All Souls Main Building (source: All Souls' website), Site Pre-Redevelopment (source: Google), Old Parish House (source: Google);_  
 _Bottom Row: Jordan Court, Looking West from All Souls towards Jordan Court, Courtyard between All Souls and Jordan Court (source: author)_  
 
+
 When All Souls first began exploring the possibility of redeveloping a portion of its land for housing in 2014, the Parish had relatively few local examples to follow. However, in recent years a "Yes in God's Backyard" or YIGBY movement has emerged. Gathering steam since the nickname was coined in 2019, a growing number of religious institutions across California, as well as other high-cost places like Seattle, New York City, the Washington, DC area, Atlanta, Denver, Miami, and San Antonio, are considering similar projects.  
 
 While the motivations vary from congregation to congregation, a key factor driving this trend is a decline in membership. In part, this reflects a broader pattern of waning religiosity in the United States, as fewer people formally join religious institutions or regularly attend religious services, especially among younger generations. Yet for some institutions, particularly those in historically marginalized communities, this decline has been exacerbated as rising housing costs and gentrification displace their congregants and staff. The drop in membership has left many religious institutions land rich and cash poor, with valuable land assets but lacking the financial resources and demand to maintain and improve their facilities.  
@@ -40,6 +41,7 @@ To explore this question, I relied on several key data sources, including:
 
 I also compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary and incomplete. I hope to continue to build out the dataset as I continue research in this area. 
 
+![ReverseGeocoding](https://user-images.githubusercontent.com/98304807/167372527-3b379727-02f0-4258-8608-ebe674f60df0.JPG)
 
 
 ## Key Findings  
