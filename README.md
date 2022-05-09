@@ -10,7 +10,7 @@ Amid growing public concern about the lack of affordable housing, homelessness, 
 
 **Jordan Court**, located in North Berkeley and opened in March 2022, was developed through a joint venture partnership betweep All Souls Episcopal Parish (All Souls), an inclusive, progressive church, and Satellite Affordable Housing Associates (SAHA). Providing much-needed senior housing, the building contains 34 affordable studios for senior residents earning 20-60% of the Area Median Income (AMI), along with an on-site manager's unit and space for All Souls' use. 
 
-<img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="300"> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="300"> <img src="https://user-images.githubusercontent.com/98304807/167351214-492b73b6-5a84-47c9-836a-06ac3367d3c9.JPG" width="300"> <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="300"> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="300"> <img src="https://user-images.githubusercontent.com/98304807/167347453-dbc26e4a-6f16-4d9b-9971-404d1580ef09.jpeg" width="300">
+<img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351214-492b73b6-5a84-47c9-836a-06ac3367d3c9.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347453-dbc26e4a-6f16-4d9b-9971-404d1580ef09.jpeg" width="275">
 
 _From left to right:_  
 _Top Row: All Souls Main Building (source: All Souls' website), Site Pre-Redevelopment (source: Google), Old Parish House (source: Google);_  
@@ -29,15 +29,13 @@ These findings guided my research question for this project:
 **Are there sociospatial patterns with respect to the congregations in the Bay Area that are pursuing housing development on their property? In particular, do the data support the anecdotal evidence that majority-Black churches are driving this trend?** 
 
 ## Methodology
-To explore this question, I relied on several key data sources, including:
-- 2019 5-year American Community Survey data by census tract
+To explore this question, I relied on the following datasets:
+- 2019 5-year American Community Survey data, by census tract (accessed via API)
   - Table S1901 (Income in the Past 12 Months)  
   - Table B03002 (Hispanic or Latino Origin by Race)  
   - Table S0101 (Age and Sex)
-- California Tax Credit Allocation Committee 2022 Opportunity Map data
-- City of Berkeley data
-  - Parcel Data
-  - Zoning Data  
+- California Tax Credit Allocation Committee 2022 Opportunity Map
+- City of Berkeley Parcels and Zoning data  
 
 I also compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary and incomplete. I hope to continue to build out the dataset as I continue research in this area. 
 
