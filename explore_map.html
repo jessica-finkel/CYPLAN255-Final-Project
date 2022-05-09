@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6bf60e38b874fd7bf7fbb1ae9c7c45c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c6bf60e38b874fd7bf7fbb1ae9c7c45c" ></div>
+        
+</body>
+<script>    
+    
+            var map_c6bf60e38b874fd7bf7fbb1ae9c7c45c = L.map(
+                "map_c6bf60e38b874fd7bf7fbb1ae9c7c45c",
+                {
+                    center: [37.878602, -122.266514],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 20,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_faf09c2d54b546798564aa6b12b9f027 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c6bf60e38b874fd7bf7fbb1ae9c7c45c);
+        
+    
+            var marker_cb7bb9db7b9f4619a965c6d8f847ab53 = L.marker(
+                [37.878602, -122.266514],
+                {}
+            ).addTo(map_c6bf60e38b874fd7bf7fbb1ae9c7c45c);
+        
+    
+            var icon_afa5d6ef541540138bef4d180a6fdc6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb7bb9db7b9f4619a965c6d8f847ab53.setIcon(icon_afa5d6ef541540138bef4d180a6fdc6d);
+        
+    
+        var popup_770858c5ea4f407d8a08a95fe6fcc026 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0336c51a529c402b903a84f34021b012 = $(`<div id="html_0336c51a529c402b903a84f34021b012" style="width: 100.0%; height: 100.0%;"><i>Jordan Court</i></div>`)[0];
+            popup_770858c5ea4f407d8a08a95fe6fcc026.setContent(html_0336c51a529c402b903a84f34021b012);
+        
+
+        marker_cb7bb9db7b9f4619a965c6d8f847ab53.bindPopup(popup_770858c5ea4f407d8a08a95fe6fcc026)
+        ;
+
+        
+    
+    
+            var marker_b2e2c607d0ee47e89f1c7ae4c6e6b8ba = L.marker(
+                [37.878524, -122.266177],
+                {}
+            ).addTo(map_c6bf60e38b874fd7bf7fbb1ae9c7c45c);
+        
+    
+            var icon_1f772452969b402c90fb27f2053bac7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2e2c607d0ee47e89f1c7ae4c6e6b8ba.setIcon(icon_1f772452969b402c90fb27f2053bac7c);
+        
+    
+        var popup_782cae3a238b4605b48b6195cae893e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f06a295ce6e24800b08c3e1e62588dba = $(`<div id="html_f06a295ce6e24800b08c3e1e62588dba" style="width: 100.0%; height: 100.0%;">All Souls Episcopal Parish</div>`)[0];
+            popup_782cae3a238b4605b48b6195cae893e1.setContent(html_f06a295ce6e24800b08c3e1e62588dba);
+        
+
+        marker_b2e2c607d0ee47e89f1c7ae4c6e6b8ba.bindPopup(popup_782cae3a238b4605b48b6195cae893e1)
+        ;
+
+        
+    
+</script>
