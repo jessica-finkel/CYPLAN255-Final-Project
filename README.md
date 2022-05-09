@@ -1,9 +1,10 @@
 # YIGBY in Berkeley and the San Francisco Bay Area
 
 ## Background
-Berkeley is a city of approximately 120,000 people in Alameda County, California.[^1]
+Berkeley is a city of approximately 120,000 people in Alameda County, California.
 
 ### ADD GRAPHIC
+
 
 With a median household income of $85,530, compared to $75,235 in California as a whole, Berkeley is a relatively affluent, high opportunity area. However, wealth is distributed unevenly within the city, with a growing number of residents unable to afford housing and other basic needs. Over the last two decades rising rents and property values, combined with a growing population, have produced, as the Anti-Eviction Mapping Project (AEMP) put it, “an extreme crisis of housing affordability and displacement.” In its March 2022 report, AEMP found that “between 2005-2019, the median gross rent for the city increased by over 50%,” and that “the average rent in Berkeley in 2019 was approximately $3,165 per month, only affordable to a household with an annual income of $130,000 or more.” Historically Black neighborhoods and other communities of color have been most impacted by this crisis, the legacy of more than a century of exclusionary zoning and anti-development policies that continue to reinforce patterns of racial residential segregation. Decades of restrictive land use policies have limited the production of new housing in Berkeley, and especially affordable housing. The city failed to meet its Regional Housing Needs Allocation (RHNA) goals for the 2007-2014 period, building just over 50% of its total allocated 2,431 units. Of those constructed, less than 14% (163 units) were affordable to very low- or low-income households.
 
@@ -30,6 +31,7 @@ These findings guided my research question for this project:
 **Are there sociospatial patterns with respect to the congregations in the Bay Area that are pursuing housing development on their property? In particular, do the data support the anecdotal evidence that majority-Black churches are driving this trend?** 
 
 ## Methodology
+
 To explore this question, I relied on the following datasets:
 - 2019 5-year American Community Survey data, by census tract (accessed via API)
   - Table S1901 (Income in the Past 12 Months)  
@@ -37,8 +39,15 @@ To explore this question, I relied on the following datasets:
   - Table S0101 (Age and Sex)
 - California Tax Credit Allocation Committee 2022 Opportunity Map
 - City of Berkeley Parcels and Zoning data  
+- Alameda County Assessor's Office Land Use Codes
 
 In addition, I compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details such as denomination, surrounding zoning designation, housing typology, and number of units. 
+
+I used several different tools, including:
+- Coding with Python in Jupyter Notebook, using multiple libraries:
+  - Geopandas
+  - 
+
 
 ![ReverseGeocoding](https://user-images.githubusercontent.com/98304807/167372527-3b379727-02f0-4258-8608-ebe674f60df0.JPG)
 
@@ -46,6 +55,7 @@ In addition, I compiled a novel dataset of "YIGBY Congregations" based on news r
 _Note: differences between census tracts may not be statistically significant._  
 
 Berkeley is heavily segregated, and race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. 
+
 ![Berk_dot_density_png](https://user-images.githubusercontent.com/98304807/167347178-86fc9dd2-f9b1-4543-8611-bd8286c13124.png) 
 Add: Choropleth Maps of Berkeley normalized by population
 Add: Opportunity Map for Berkeley
