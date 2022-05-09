@@ -10,6 +10,8 @@ Amid growing public concern about the lack of affordable housing, homelessness, 
 
 **Jordan Court**, located in North Berkeley and opened in March 2022, was developed through a joint venture partnership betweep All Souls Episcopal Parish (All Souls), an inclusive, progressive church, and Satellite Affordable Housing Associates (SAHA). Providing much-needed senior housing, the building contains 34 affordable studios for senior residents earning 20-60% of the Area Median Income (AMI), along with an on-site manager's unit and space for All Souls' use. 
 
+ADD JORDAN COURT within Berkeley Map
+
 <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351214-492b73b6-5a84-47c9-836a-06ac3367d3c9.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347453-dbc26e4a-6f16-4d9b-9971-404d1580ef09.jpeg" width="275">
 
 _From left to right:_  
@@ -48,7 +50,7 @@ Berkeley is heavily segregated, and race/ethnicity is correlated with spatial pa
 ![Berk_dot_density_png](https://user-images.githubusercontent.com/98304807/167347178-86fc9dd2-f9b1-4543-8611-bd8286c13124.png) 
 Add: Choropleth Maps of Berkeley normalized by population
 Add: Opportunity Map for Berkeley
-Add: Correlations between income and race/ethnicity
+Add: Correlations between income and race/ethnicity (scatter plots? and pairwise correlation snips?)
 Add: Pop Density Map  
 Add: Zoning Map showing LDR, MDR, HDR
 
