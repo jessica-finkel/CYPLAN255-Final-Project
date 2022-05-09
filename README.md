@@ -12,12 +12,12 @@ Amid growing public concern about the lack of affordable housing, homelessness, 
 
 ADD JORDAN COURT within Berkeley Map
 
-<img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167351214-492b73b6-5a84-47c9-836a-06ac3367d3c9.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="275"> <img src="https://user-images.githubusercontent.com/98304807/167347453-dbc26e4a-6f16-4d9b-9971-404d1580ef09.jpeg" width="275">
+<img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="400"> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="400"> <img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="400"> <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="400"> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="400"> <img src="https://user-images.githubusercontent.com/98304807/167452238-b82dc126-5221-4962-a2e8-17b0d8b63ba2.jpeg" width="400">
 
-_From left to right:_  
-_Top Row: All Souls Main Building (source: All Souls' website), Site Pre-Redevelopment (source: Google), Old Parish House (source: Google);_  
-_Bottom Row: Jordan Court, Looking West from All Souls towards Jordan Court, Courtyard between All Souls and Jordan Court (source: author)_  
-
+_From left to right:  
+Top Row: All Souls Main Building (source: All Souls), Previous Site Layout (source: Google, via Berkeleyside)  
+Middle Row: Old Parish House, 2015 (source: Google), Jordan Court (source: author)  
+Bottom Row: Looking West from All Souls towards Jordan Court (source: author) Jordan Court Courtyard (sources: All Souls)_  
 
 When All Souls first began exploring the possibility of redeveloping a portion of its land for housing in 2014, the Parish had relatively few local examples to follow. However, in recent years a "Yes in God's Backyard" or YIGBY movement has emerged. Gathering steam since the nickname was coined in 2019, a growing number of religious institutions across California, as well as other high-cost places like Seattle, New York City, the Washington, DC area, Atlanta, Denver, Miami, and San Antonio, are considering similar projects.  
 
