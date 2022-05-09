@@ -37,10 +37,9 @@ To explore this question, I relied on the following datasets:
 - California Tax Credit Allocation Committee 2022 Opportunity Map
 - City of Berkeley Parcels and Zoning data  
 
-I also compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary and incomplete. I hope to continue to build out the dataset as I continue research in this area. 
+In addition, I compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details such as denomination, surrounding zoning designation, housing typology, and number of units. 
 
 ![ReverseGeocoding](https://user-images.githubusercontent.com/98304807/167372527-3b379727-02f0-4258-8608-ebe674f60df0.JPG)
-
 
 ## Key Findings  
 _Note: differences between census tracts may not be statistically significant._  
