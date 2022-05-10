@@ -11,10 +11,10 @@ In this context, one recently completed housing development points to a promisin
 
   
 <p float="left">
-  <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="300" />
+  <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="250" />
 </p>
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167452238-b82dc126-5221-4962-a2e8-17b0d8b63ba2.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167452238-b82dc126-5221-4962-a2e8-17b0d8b63ba2.jpeg" width="250" />
 </p>
 
  *From top left to bottom right: All Souls Main Building (source: All Souls); Previous Site Layout (source: Google, via Berkeleyside); Old Parish House, 2015 (source: Google); Jordan Court (source: author); All Souls Next to Jordan Court (source: author); Jordan Court Courtyard (source: All Souls)* 
@@ -26,7 +26,7 @@ When All Souls first began exploring the possibility of redeveloping a portion o
 
 In researching Jordan Court and the YIGBY movement for my capstone project, I found that there is significant and growing interest in this model among congregations and policymakers in California, but information is difficult to find. Information is decentralized and largely shared informally via word-of-mouth, making it challenging to identify patterns, pitfalls, and successful policy or programmatic initiatives related to this model. In addition, several people I interviewed observed that many of the congregations pursuing this path are majority-Black churches in neighborhoods facing heavy displacement pressure. I also learned that exclusionary zoning and land use barriers frequently pose an obstacle for congregations looking to redevelop their land. These findings guided my research question for this project:
 
-**Are there sociospatial patterns with respect to the congregations in the Bay Area that are pursuing housing development on their property? In particular, do the data support the anecdotal evidence that majority-Black churches are driving this trend?**  
+Are there sociospatial patterns with respect to the congregations in the Bay Area that are pursuing housing development on their property? In particular, do the data support the anecdotal evidence that majority-Black churches are driving this trend?
 
   
 ## Methodology
@@ -39,15 +39,18 @@ To explore this question, I relied on the following datasets:
 - California Tax Credit Allocation Committee 2022 Opportunity Map (hosted by the Othering and Belonging Institute)
 - City of Berkeley Parcels and Zoning data (downloaded) 
 - Alameda County Assessor's Office Land Use Codes 
-- A novel dataset of "YIGBY Congregations" in Alameda, Contra Costa, and Santa Clara Counties I compiled from news reports, press statements, interviews, blog posts, and social media
+- A novel dataset of "YIGBY Congregations"  
 
-I used Python in Jupyter Notebook to complete my analysis, relying on a variety of Python libraries, including among others Matplotlib, Seaborn, Pandas, Geopandas, Contextily, and Folium. I also used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. I explored using OSMnx to gather building footprint and location data for congregations in Berkeley, but I was not confident in my tagging scheme and opted against using it in the end. I supplemented work in Python with ArcGIS to troubleshoot projection issues and Adobe Illustrator to modify legends and image sizing. 
+I used a Python Jupyter Notebook to complete my analysis, relying on a variety of libraries, particularly Matplotlib, Seaborn, Pandas, Geopandas, Shapely, Contextily, and Folium.
 
 Using code adapted from **<a href="https://github.com/agaidus/census_data_extraction/blob/master/census_mapper.py" target="_blank">here</a>** and **<a href="https://github.com/LucyMakesMaps/COVID_VaccineClinics/blob/main/Notebooks/DotMap.ipynb" target="_blank">here</a>**, I created a dot density map of demographics in Berkeley. It reflects 2019 5-year ACS race/ethnicity data at the census tract level retrieved from the Census Bureau's API. I chose to focus only on four race/ethnicity categories, non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic (referred to throughout this page as White, Black, Asian, and Hispanic, respectively) because the population identifying as other categories was too small to read clearly on the map. I clipped the map to an administrative boundary layer, which cut off additional dots in the western-most tract extending into the water. It would have been better to clip the map before generating the dots for that census tract polyon; however, this tract has a very small total population and this did not significantly change the information in the map. Following **<a href="https://www.axismaps.com/guide/dot-density" target="_blank">best practice</a>**, I projected the dot density map to EPSG 5070, which is an Albers Equal Area projection using the NAD 83 Datum.  
 
 Aside from the dot density map, all of the maps are projected to EPSG 2227. The series of choropleth maps reflects census tract-level data. It may have been better to use block group-level data, but I was concerned about high margins of error if I used a smaller geography. I did not conduct statistical testing for this project; therefore, apparent differences across census tracts may not be statistically significant.  
+
+I compiled the list of YIGBY congregations from news reports, press statements, interviews, blog posts, and social media. I used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. While I came across institutions in southern California and a handful in Marin County, for the purpose of this project I limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara Counties. Even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details, such as denomination, surrounding zoning designation, housing typology, and number of housing units. My goal is to create a prototype of an interactive map that congregations, policymakers, and researches could use to find centralized information about the movement and policy and programmatic initiatives to facilitate it. Initially I hoped to calculate the development potential on land coded for religious use in Berkeley, and I explored using OSMnx to gather building footprint and location data. In the end, though, I was not confident in my tagging scheme and opted against pursuing this avenue. 
+
   
-## Key Findings  
+## Findings  
 
 ### Berkeley Context
   
