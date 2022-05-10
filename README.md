@@ -82,7 +82,7 @@ Berkeley is an extremely residential city, and most neighborhoods are zoned for 
 
 ### YIGBY in Berkeley
 
-According to data from the Alameda County Assessor's Office, there are 104 religious use parcels in Berkeley. Not surprising given that most of the city is zoned for residential use, most of these sites are in residential areas, and particularly in areas zoned for medium-density housing. 
+According to data from the Alameda County Assessor's Office, there are 104 religious use parcels in Berkeley. Not surprising given that most of the city is zoned for residential use, most of these sites are in residential areas, and particularly in areas zoned for medium-density housing. Exclusionary zoning has historically limited affordable housing production in California, but recent legislative initiatives like SB 35 seek to overcome this barrier. Effective as of January 1, 2018, cities in California not meeting their housing production goals under RHNA must grant ministerial approval to housing developments on sites zoned for residential or mixed use that meet certain affordability thresholds. My analysis suggests that 73% (76 total) religious use parcels are in areas zoned residential, with another 7% (7 total) zoned for mixed use. Notably, another 20% (21 total) religious use parcels are in areas zoned commercial. While there are limitations in my analysis due to the way I coded zoning categories, this suggests that at least some congregations would face challenges building affordable housing. SB 899 (D-Wiener) would have expanded on SB 35 by giving ministerial approval to certain affordable housing projects on land owned by religious institutions in areas zoned for commercial use, in addition to residential or mixed use, but it failed to pass the California legislature in 2020. 
 
 ![relig_x_zone](https://user-images.githubusercontent.com/98304807/167708332-c4e4f3e9-b299-4330-a3e2-496a4fe21eee.png)
 
@@ -90,7 +90,7 @@ According to data from the Alameda County Assessor's Office, there are 104 relig
 
 ![congreg_zoningtype](https://user-images.githubusercontent.com/98304807/167721771-23c3b14b-df56-424b-aaf4-da835954ed58.png)
 
-My dataset of YIGBY congregations only contains 5 congregations thus far, but they are noticeably concentrated in South Berkeley, which is experiencing significant gentrification and displacement. 
+My dataset of YIGBY congregations only contains 5 congregations thus far, but they are noticeably concentrated in South Berkeley. This aligns with recent reports such as **<a href="https://www.berkeleyside.org/2022/03/13/south-berkeley-black-churches-are-building-affordable-housing-on-their-properties" target="_blank">this article</a>** from Berkeleyside, which noted that several South Berkeley Black churches are looking to redevelop their sites into affordable housing to combat intense gentrification and displacement. 
 
 ![berk_congs](https://user-images.githubusercontent.com/98304807/167738365-146756d5-c741-44be-8c72-1869c0bc6e45.png)
 
@@ -103,11 +103,10 @@ My dataset of YIGBY congregations only contains 5 congregations thus far, but th
   
 ## Conclusions and Next Steps  
   
-
 (Coming soon)
 
 ## Acknowledgements
-I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner Drew Liming for doing research to flesh out my list of YIGBY congregations.  
+I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner for helping me compile my list of YIGBY congregations. 
 
 ## References
 
