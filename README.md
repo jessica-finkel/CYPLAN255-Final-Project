@@ -49,7 +49,7 @@ Aside from the dot density map, all of the maps are projected to EPSG 2227. The 
 
 _Note: differences between census tracts may not be statistically significant._  
   
-I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. In general, the city is predominantly White, particularly in census tracts in North Berkeley and the Berkeley Hills. The direct result of the history of redlining and exlusionary land use policies in the city, census tracts with a higher percentage of White residents are generally higher resourced, with a higher median income and lower housing density than those with a higher percentage of BIPOC residents.  
+I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. In general, the city is predominantly White, particularly in census tracts in North Berkeley and the Berkeley Hills. Reflecting a history of redlining and exlusionary land use policies in the city, census tracts with a higher percentage of White residents are generally higher resourced, with a higher median income and lower housing density than those with a higher percentage of BIPOC residents.  
 
   
 ![berk_dot_dens](https://user-images.githubusercontent.com/98304807/167543697-243fe9fa-8bba-41d3-b702-9a45168791c0.png)  
@@ -75,12 +75,11 @@ Berkeley has an aging population, with a growing number of residents reaching re
   
 Berkeley is largely residential, with predominately low- and medium-density housing. 
 
-ADD Zoning Map
-
-Add Zoning Map with Housing
+![berk_zoning](https://user-images.githubusercontent.com/98304807/167569020-5928c9f9-814e-4efd-a715-13cb1ccdb0b0.png)
 
 
-Add: Zoning Map showing LDR, MDR, HDR
+![resid_zoning](https://user-images.githubusercontent.com/98304807/167577308-a649292d-943a-4f43-b14f-08d1760b388b.png)
+
 
 The congregations pursuing housing on their land in Berkeley and the Bay Area are more likely to be in low-resource and BIPOC neighborhoods.
 
