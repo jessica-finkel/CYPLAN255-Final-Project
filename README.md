@@ -46,11 +46,7 @@ To explore this question, I relied on the following datasets:
 - Alameda County Assessor's Office Land Use Codes 
 - A novel dataset of "YIGBY Congregations" in Alameda, Contra Costa, and Santa Clara Counties that I compiled from news reports, press statements, interviews, blog posts, and social media
 
-I used Python in Jupyter Notebook to complete my analysis, supplementing with ArcGIS to troubleshoot projection issues and Adobe Illustrator to modify legends and image sizing. I relied on a variety of Python libraries, including among others Matplotlib, Seaborn, Pandas, Geopandas, Contextily, and Folium. I also used the Mapbox API to geocode the addresses of congregations in my novel dataset and then used Shapely to create point geometry for each site. 
-
-![ReverseGeocoding](https://user-images.githubusercontent.com/98304807/167372527-3b379727-02f0-4258-8608-ebe674f60df0.JPG)
-
-For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details such as denomination, surrounding zoning designation, housing typology, and number of units. I explored using OSMnx to gather building footprint and location data for congregations in Berkeley, but I was not confident in my tagging scheme and opted against using it in the end.   
+I used Python in Jupyter Notebook to complete my analysis, relying on a variety of Python libraries, including among others Matplotlib, Seaborn, Pandas, Geopandas, Contextily, and Folium. I also used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. I explored using OSMnx to gather building footprint and location data for congregations in Berkeley, but I was not confident in my tagging scheme and opted against using it in the end. I supplemented work in Python with ArcGIS to troubleshoot projection issues and Adobe Illustrator to modify legends and image sizing. 
 
 ## Key Findings  
 _Note: differences between census tracts may not be statistically significant._  
