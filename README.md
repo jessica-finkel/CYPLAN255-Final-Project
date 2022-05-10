@@ -41,11 +41,15 @@ To explore this question, I relied on the following datasets:
 
 I used a Python Jupyter Notebook to complete my analysis, relying on a variety of libraries, particularly Matplotlib, Seaborn, Pandas, Geopandas, Shapely, Contextily, and Folium.
 
-Using code adapted from **<a href="https://github.com/agaidus/census_data_extraction/blob/master/census_mapper.py" target="_blank">here</a>** and **<a href="https://github.com/LucyMakesMaps/COVID_VaccineClinics/blob/main/Notebooks/DotMap.ipynb" target="_blank">here</a>**, I created a dot density map of demographics in Berkeley. It reflects 2019 5-year ACS race/ethnicity data at the census tract level retrieved from the Census Bureau's API. I chose to focus only on four race/ethnicity categories, non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic (referred to throughout this page as White, Black, Asian, and Hispanic, respectively) because the population identifying as other categories was too small to read clearly on the map. I clipped the map to an administrative boundary layer, which cut off additional dots in the western-most tract extending into the water. It would have been better to clip the map before generating the dots for that census tract polyon; however, this tract has a very small total population and this did not significantly change the information in the map. Following **<a href="https://www.axismaps.com/guide/dot-density" target="_blank">best practice</a>**, I projected the dot density map to EPSG 5070, which is an Albers Equal Area projection using the NAD 83 Datum.  
+A few key key notes about my approach to the the data:
 
-Aside from the dot density map, all of the maps are projected to EPSG 2227. The series of choropleth maps reflects census tract-level data. It may have been better to use block group-level data, but I was concerned about high margins of error if I used a smaller geography. I did not conduct statistical testing for this project; therefore, apparent differences across census tracts may not be statistically significant.  
+- Using code adapted from **<a href="https://github.com/agaidus/census_data_extraction/blob/master/census_mapper.py" target="_blank">here</a>** and **<a href="https://github.com/LucyMakesMaps/COVID_VaccineClinics/blob/main/Notebooks/DotMap.ipynb" target="_blank">here</a>**, I created a dot density map of demographics in Berkeley. It reflects 2019 5-year ACS race/ethnicity data at the census tract level retrieved from the Census Bureau's API. I chose to focus only on four race/ethnicity categories, non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic (referred to throughout this page as White, Black, Asian, and Hispanic, respectively) because the population identifying as other categories was too small to read clearly on the map. I clipped the map to an administrative boundary layer, which cut off additional dots in the western-most tract extending into the water. It would have been better to clip the map before generating the dots for that census tract polyon; however, this tract has a very small total population and this did not significantly change the information in the map. Following **<a href="https://www.axismaps.com/guide/dot-density" target="_blank">best practice</a>**, I projected the dot density map to EPSG 5070, which is an Albers Equal Area projection using the NAD 83 Datum.  
 
-I compiled the list of YIGBY congregations from news reports, press statements, interviews, blog posts, and social media. I used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. While I came across institutions in southern California and a handful in Marin County, for the purpose of this project I limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara Counties. Even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details, such as denomination, surrounding zoning designation, housing typology, and number of housing units. My goal is to create a prototype of an interactive map that congregations, policymakers, and researches could use to find centralized information about the movement and policy and programmatic initiatives to facilitate it. Initially I hoped to calculate the development potential on land coded for religious use in Berkeley, and I explored using OSMnx to gather building footprint and location data. In the end, though, I was not confident in my tagging scheme and opted against pursuing this avenue. 
+- Aside from the dot density map, all of the maps below are projected to EPSG 2227. The series of choropleth maps reflects census tract-level data. It may have been better to use block group-level data, but I was concerned about high margins of error if I used a smaller geography. I did not conduct statistical testing for this project; therefore, apparent differences across census tracts may not be statistically significant.  
+
+- The zoning data available through Berkeley's online data portal includes inconsistencies and does not strictly align with the City's zoning ordinance. The original dataset included 10 zone designations codes and 39 unique "zone class" category codes, some for which I could not find a definition. For the purpose of this project, I created my own "zoning' classification with 8 categories: low-density residential, medium-density residential, high-density residential, mixed use-residential, mixed use-light industrial, commercial, manufacturing, and other. In general, "Low density residential" includes R-1 zone classes, "medium density residential" includes R-2 zone classes, and "high density residential" includes R-3, R-4, and R-5 zone classes. "Commercial" includes neighborhood commercial areas, commercial corridors, and predominately commercial areas in the downtown core.
+
+- I compiled the list of YIGBY congregations from news reports, press statements, interviews, blog posts, and social media. I used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. While I came across institutions in southern California and a handful in Marin County, for the purpose of this project I limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara Counties. Even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details, such as denomination, surrounding zoning designation, housing typology, and number of housing units. My goal is to create a prototype of an interactive map that congregations, policymakers, and researches could use to find centralized information about the movement and policy and programmatic initiatives to facilitate it. Initially I hoped to calculate the development potential on land coded for religious use in Berkeley, and I explored using OSMnx to gather building footprint and location data. In the end, though, I was not confident in my tagging scheme and opted against pursuing this avenue for this project. 
 
   
 ## Findings  
@@ -71,20 +75,26 @@ I began by analyzing sociodemographic data for Berkeley from the Census Bureau a
 ![berk_opp](https://user-images.githubusercontent.com/98304807/167545655-3874a069-af10-4d87-8813-42a284f14edd.png)
 
 
-Berkeley is an extremely residential city, and most neighborhoods are zoned for low- and medium-density housing. largely residential, with predominately low- and medium-density housing. 
-
-![berk_zoning](https://user-images.githubusercontent.com/98304807/167569020-5928c9f9-814e-4efd-a715-13cb1ccdb0b0.png)
+Berkeley is an extremely residential city, and most neighborhoods are zoned for low- and medium-density housing.
 
 
-![resid_zoning](https://user-images.githubusercontent.com/98304807/167577308-a649292d-943a-4f43-b14f-08d1760b388b.png)
+![berk_zoning_x](https://user-images.githubusercontent.com/98304807/167708123-31edb20d-cce8-4955-aee7-d7e11600ed5a.png)
 
 ### YIGBY in Berkeley
 
-The congregations pursuing housing on their land in Berkeley and the Bay Area are more likely to be in low-resource and BIPOC neighborhoods. 
+According to data from the Alameda County Assessor's Office, there are 104 religious use parcels in Berkeley. Not surprising given that most of the city is zoned for residential use, most of these sites are in residential areas, and particularly in areas zoned for medium-density housing. 
 
-(Coming soon)
-  
-  
+![relig_x_zone](https://user-images.githubusercontent.com/98304807/167708332-c4e4f3e9-b299-4330-a3e2-496a4fe21eee.png)
+
+![congreg_countxzone](https://user-images.githubusercontent.com/98304807/167721792-9a804198-92be-4d53-827e-f5a174b89ff9.jpg)
+
+![congreg_zoningtype](https://user-images.githubusercontent.com/98304807/167721771-23c3b14b-df56-424b-aaf4-da835954ed58.png)
+
+My dataset of YIGBY congregations only contains 5 congregations thus far, but they are noticeably concentrated in South Berkeley, which is experiencing significant gentrification and displacement. 
+
+![berk_congs](https://user-images.githubusercontent.com/98304807/167738365-146756d5-c741-44be-8c72-1869c0bc6e45.png)
+
+
 ### YIGBY in East Bay
   
 **<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">Click here to explore congregations building housing on their land!</a>**
