@@ -83,6 +83,14 @@ Berkeley is an extremely residential city, and most neighborhoods are zoned for 
 ### YIGBY in Berkeley
 
 The congregations pursuing housing on their land in Berkeley and the Bay Area are more likely to be in low-resource and BIPOC neighborhoods.
+  
+  
+### YIGBY in East Bay
+
+
+**<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">Click here to explore congregations building housing on their land!</a>**
+
+
 
 Add: Opportunity Maps and congregations
 Add: % POC Map and congregations
