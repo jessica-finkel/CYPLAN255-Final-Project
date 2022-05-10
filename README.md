@@ -1,6 +1,6 @@
 # YIGBY in Berkeley and the San Francisco Bay Area
 
-Final Project for CP255 Urban Informatics + Visualization (Spring 2022) | Jessica Finkel | 5.9.2022
+Final Project for CP255 Urban Informatics + Visualization (Spring 2022)  |  Jessica Finkel  |  5.9.2022
 
 
 ## Background
@@ -12,14 +12,10 @@ Amid growing public concern about the lack of affordable housing, homelessness, 
 **Jordan Court Photos**
 
 <p float="left">
-  <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="300" />
-  <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="300" /> 
-  <img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="300" />
+  <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="300" />
 </p>
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="300" />
-  <img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="300" /> 
-  <img src="https://user-images.githubusercontent.com/98304807/167452238-b82dc126-5221-4962-a2e8-17b0d8b63ba2.jpeg" width="300" />
+  <img src="https://user-images.githubusercontent.com/98304807/167347373-ae42b5d9-5609-4f75-895a-6698ab839d60.JPG" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167347490-e3fcce3e-8d63-4ee4-973a-2ea834595f16.JPG" width="300" /><img src="https://user-images.githubusercontent.com/98304807/167452238-b82dc126-5221-4962-a2e8-17b0d8b63ba2.jpeg" width="300" />
 </p>
 
  *From left to right:    
@@ -45,18 +41,21 @@ To explore this question, I relied on the following datasets:
   - Table S1901 (Income in the Past 12 Months)  
   - Table B03002 (Hispanic or Latino Origin by Race)  
   - Table S0101 (Age and Sex)
-- California Tax Credit Allocation Committee 2022 Opportunity Map
-- City of Berkeley Parcels and Zoning data  
-- Alameda County Assessor's Office Land Use Codes
+- California Tax Credit Allocation Committee 2022 Opportunity Map (hosted by the Othering and Belonging Institute)
+- City of Berkeley Parcels and Zoning data (downloaded) 
+- Alameda County Assessor's Office Land Use Codes 
+- A novel dataset of "YIGBY Congregations" in Alameda, Contra Costa, and Santa Clara Counties that I compiled from news reports, press statements, interviews, blog posts, and social media
 
-In addition, I compiled a novel dataset of "YIGBY Congregations" based on news reports, press statements, interviews, blog posts, and social media. After gathering the information, I used the Mapbox API to geocode the addresses and then used Shapely to create point geometry for each site. For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details such as denomination, surrounding zoning designation, housing typology, and number of units. 
+I used Python in Jupyter Notebook to complete my analysis, supplementing with ArcGIS to troubleshoot projection issues and Adobe Illustrator to modify legends and image sizing. I relied on a variety of Python libraries, including among others Matplotlib, Seaborn, Pandas, Geopandas, Contextily, and Folium. I also used the Mapbox API to geocode the addresses of congregations in my novel dataset and then used Shapely to create point geometry for each site. 
 
 ![ReverseGeocoding](https://user-images.githubusercontent.com/98304807/167372527-3b379727-02f0-4258-8608-ebe674f60df0.JPG)
+
+For the purpose of this project, I have limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara counties. However, even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details such as denomination, surrounding zoning designation, housing typology, and number of units. I explored using OSMnx to gather building footprint and location data for congregations in Berkeley, but I was not confident in my tagging scheme and opted against using it in the end.   
 
 ## Key Findings  
 _Note: differences between census tracts may not be statistically significant._  
 
-Berkeley is heavily segregated, and race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. 
+I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated, and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. 
 
 
 
@@ -74,6 +73,9 @@ Berkeley is heavily segregated, and race/ethnicity is correlated with spatial pa
 
 
 ![berk_opp](https://user-images.githubusercontent.com/98304807/167545655-3874a069-af10-4d87-8813-42a284f14edd.png)
+
+![berk_seniors](https://user-images.githubusercontent.com/98304807/167546872-f4441d69-734a-41df-8350-1efafb32ebf6.png)
+
 
 
 Add: Zoning Map showing LDR, MDR, HDR
