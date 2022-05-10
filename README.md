@@ -48,29 +48,31 @@ To explore this question, I relied on the following datasets:
 
 I used Python in Jupyter Notebook to complete my analysis, relying on a variety of Python libraries, including among others Matplotlib, Seaborn, Pandas, Geopandas, Contextily, and Folium. I also used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. I explored using OSMnx to gather building footprint and location data for congregations in Berkeley, but I was not confident in my tagging scheme and opted against using it in the end. I supplemented work in Python with ArcGIS to troubleshoot projection issues and Adobe Illustrator to modify legends and image sizing. 
 
+Using code adapted from https://github.com/agaidus/census_data_extraction/blob/master/census_mapper.py and https://github.com/LucyMakesMaps/COVID_VaccineClinics/blob/main/Notebooks/DotMap.ipynb, I created a dot density map of demographics in Berkeley. It reflects 2019 5-year ACS race/ethnicity data at the census tract level retrieved from the Census Bureau's API. I chose to focus only on four race/ethnicity categories, non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic (referred to throughout this page as White, Black, Asian, and Hispanic, respectively) because the population identifying as other categories was too small to read clearly on the map. I clipped the map to an administrative boundary layer, which cut off additional dots in the western-most tract extending into the water. It would have been better to clip the map before generating the dots for that census tract polyon; however, this tract has a very small total population and this did not significantly change the information in the map. Following best practice, I projected the dot density map to EPSG 5070, which is an Albers Equal Area projection using the NAD 83 Datum.  
+
+The series of choropleth maps reflects the percent of residents in each category normalized over the total population in each census tract. It would have been better to use block group-level data, but I was concerned about high margins of error if I used a smaller geography. Aside from the dot density map, all of the maps are projected to EPSG 2227. 
+
 ## Key Findings  
 _Note: differences between census tracts may not be statistically significant._  
 
-I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated, and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. 
+I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. In general, the city is predominantly White, particularly in census tracts in North Berkeley and the Berkeley Hills. The direct result of the history of redlining and exlusionary land use policies in the city, census tracts with a higher percentage of White residents are generally higher resourced, with a higher median income and lower housing density than those with a higher percentage of BIPOC residents.   
 
+![berk_dot_dens](https://user-images.githubusercontent.com/98304807/167543697-243fe9fa-8bba-41d3-b702-9a45168791c0.png)  
 
-
-![berk_pop_dens](https://user-images.githubusercontent.com/98304807/167542319-cf8012c9-5538-4d63-ba54-f6762c0e731b.png)
-
-![berk_dot_dens](https://user-images.githubusercontent.com/98304807/167543697-243fe9fa-8bba-41d3-b702-9a45168791c0.png)
 
 ![race_bw](https://user-images.githubusercontent.com/98304807/167543714-ba14eb24-a813-48b0-aa06-8ceeadf50a2b.png)
 ![race_ah](https://user-images.githubusercontent.com/98304807/167541867-857308db-247d-4f66-85ac-35e2115e2927.png)  
-
+![berk_pop_dens](https://user-images.githubusercontent.com/98304807/167542319-cf8012c9-5538-4d63-ba54-f6762c0e731b.png)
 
 <img src="https://user-images.githubusercontent.com/98304807/167546058-d9b101af-84c2-4c91-8318-68ceacfd5f43.png" width="500" /> <img src="https://user-images.githubusercontent.com/98304807/167546173-533e9aba-b8f2-49f3-b39b-a0654ff693dc.png" width="500" />  
  
-
-
-
 ![berk_opp](https://user-images.githubusercontent.com/98304807/167545655-3874a069-af10-4d87-8813-42a284f14edd.png)
 
+
+Berkeley has an aging population, with a growing number of residents reaching retirement age. All Souls took this into account when it began exploring options for redeveloping the Old Parish House and parking lot, ultimately deciding to focus on affordable senior housing. This was also a strategic choice to minimize neighborhood opposition to the project. 
+
 ![berk_seniors](https://user-images.githubusercontent.com/98304807/167546872-f4441d69-734a-41df-8350-1efafb32ebf6.png)
+
 
 
 
