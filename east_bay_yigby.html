@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1df6a4fddf6d4e7083d1e194c1c97ceb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1df6a4fddf6d4e7083d1e194c1c97ceb" ></div>
+        
+</body>
+<script>    
+    
+            var map_1df6a4fddf6d4e7083d1e194c1c97ceb = L.map(
+                "map_1df6a4fddf6d4e7083d1e194c1c97ceb",
+                {
+                    center: [37.878602, -122.266514],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6308d2204ad548bd9c60986b72cb1387 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var marker_c5b82141d58e4cefbef6482cebc66782 = L.marker(
+                [37.878565, -122.26607],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_ae84352d04b74350b6c6e0ebd8e77dec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c5b82141d58e4cefbef6482cebc66782.setIcon(icon_ae84352d04b74350b6c6e0ebd8e77dec);
+        
+    
+        var popup_4757864460d24020aca4534a1e5cd712 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc8ec600bd0d44daab3289eaa47a919c = $(`<div id="html_dc8ec600bd0d44daab3289eaa47a919c" style="width: 100.0%; height: 100.0%;">All Souls Episcopal Parish<br>Status: Built</div>`)[0];
+            popup_4757864460d24020aca4534a1e5cd712.setContent(html_dc8ec600bd0d44daab3289eaa47a919c);
+        
+
+        marker_c5b82141d58e4cefbef6482cebc66782.bindPopup(popup_4757864460d24020aca4534a1e5cd712)
+        ;
+
+        
+    
+    
+            var marker_c5955908330941beafbec842168df678 = L.marker(
+                [37.758525, -122.19625],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_50a205917c664c7289130995b464e38b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c5955908330941beafbec842168df678.setIcon(icon_50a205917c664c7289130995b464e38b);
+        
+    
+        var popup_1cf26352cc404cf889f825fc30724788 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20dcf676e57248e88674252722a1ba2d = $(`<div id="html_20dcf676e57248e88674252722a1ba2d" style="width: 100.0%; height: 100.0%;">Acts Full Gospel Church<br>Status: Built</div>`)[0];
+            popup_1cf26352cc404cf889f825fc30724788.setContent(html_20dcf676e57248e88674252722a1ba2d);
+        
+
+        marker_c5955908330941beafbec842168df678.bindPopup(popup_1cf26352cc404cf889f825fc30724788)
+        ;
+
+        
+    
+    
+            var marker_16c974f7719a41dcaf4ade4ce648739e = L.marker(
+                [37.758525, -122.19625],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_08021ae452b74eecb1848e43d2d2ca38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_16c974f7719a41dcaf4ade4ce648739e.setIcon(icon_08021ae452b74eecb1848e43d2d2ca38);
+        
+    
+        var popup_c7c7559026ee41c99899b1fb8a31f1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9556eb0970854a32a7a6285c186029e7 = $(`<div id="html_9556eb0970854a32a7a6285c186029e7" style="width: 100.0%; height: 100.0%;">Acts Full Gospel Church<br>Status: Under Construction</div>`)[0];
+            popup_c7c7559026ee41c99899b1fb8a31f1a5.setContent(html_9556eb0970854a32a7a6285c186029e7);
+        
+
+        marker_16c974f7719a41dcaf4ade4ce648739e.bindPopup(popup_c7c7559026ee41c99899b1fb8a31f1a5)
+        ;
+
+        
+    
+    
+            var marker_252daedd98264b439a119d10cd4449fb = L.marker(
+                [37.857165, -122.27561],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_8ff0fee7954f40b1a3c1de8266c6f4d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_252daedd98264b439a119d10cd4449fb.setIcon(icon_8ff0fee7954f40b1a3c1de8266c6f4d6);
+        
+    
+        var popup_1221ba3ec0ad4bcf998032a2d25c3fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a60301e381646ff9c5b8556d9949fdc = $(`<div id="html_4a60301e381646ff9c5b8556d9949fdc" style="width: 100.0%; height: 100.0%;">McGee Avenue Baptist Church<br>Status: Under Construction</div>`)[0];
+            popup_1221ba3ec0ad4bcf998032a2d25c3fc2.setContent(html_4a60301e381646ff9c5b8556d9949fdc);
+        
+
+        marker_252daedd98264b439a119d10cd4449fb.bindPopup(popup_1221ba3ec0ad4bcf998032a2d25c3fc2)
+        ;
+
+        
+    
+    
+            var marker_1804ad2a09c44613a821f5691ff480be = L.marker(
+                [37.78305, -122.234245],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_07093067d34c4736a0043f17ade93495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_1804ad2a09c44613a821f5691ff480be.setIcon(icon_07093067d34c4736a0043f17ade93495);
+        
+    
+        var popup_e5975b875b874a81825fe27f5d281654 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbcc1d85a4ba4c7e8cdadeb189e868a3 = $(`<div id="html_fbcc1d85a4ba4c7e8cdadeb189e868a3" style="width: 100.0%; height: 100.0%;">Agnes Memorial Church of God in Christ<br>Status: Planning</div>`)[0];
+            popup_e5975b875b874a81825fe27f5d281654.setContent(html_fbcc1d85a4ba4c7e8cdadeb189e868a3);
+        
+
+        marker_1804ad2a09c44613a821f5691ff480be.bindPopup(popup_e5975b875b874a81825fe27f5d281654)
+        ;
+
+        
+    
+    
+            var marker_a5dad9271ed042c68c61a31cdf322292 = L.marker(
+                [37.80028, -122.26941],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_65b8f7497c6d4415842ac55bcf33cb2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a5dad9271ed042c68c61a31cdf322292.setIcon(icon_65b8f7497c6d4415842ac55bcf33cb2c);
+        
+    
+        var popup_23871c5a9d414ac5b79bb31200224305 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abaa5c1a32074f509ab4decdac899b62 = $(`<div id="html_abaa5c1a32074f509ab4decdac899b62" style="width: 100.0%; height: 100.0%;">Episcopal Church of Our Saviour<br>Status: Exploring</div>`)[0];
+            popup_23871c5a9d414ac5b79bb31200224305.setContent(html_abaa5c1a32074f509ab4decdac899b62);
+        
+
+        marker_a5dad9271ed042c68c61a31cdf322292.bindPopup(popup_23871c5a9d414ac5b79bb31200224305)
+        ;
+
+        
+    
+    
+            var marker_91a1163473d44990a6cf6d54afbd45cd = L.marker(
+                [37.76397, -122.16778],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_ab30d100345149359f9b35900f0519db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_91a1163473d44990a6cf6d54afbd45cd.setIcon(icon_ab30d100345149359f9b35900f0519db);
+        
+    
+        var popup_8dafb2f604e748aaa4c9038bb0f59175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1ec86f26374b9e8e8adb50c7105783 = $(`<div id="html_2c1ec86f26374b9e8e8adb50c7105783" style="width: 100.0%; height: 100.0%;">Genesis Worship Center Family Church<br>Status: Built</div>`)[0];
+            popup_8dafb2f604e748aaa4c9038bb0f59175.setContent(html_2c1ec86f26374b9e8e8adb50c7105783);
+        
+
+        marker_91a1163473d44990a6cf6d54afbd45cd.bindPopup(popup_8dafb2f604e748aaa4c9038bb0f59175)
+        ;
+
+        
+    
+    
+            var marker_549a12a099d24a69b432ff46315ad040 = L.marker(
+                [37.809165, -122.281395],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_f8545271be9e474f902cccd390b51916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_549a12a099d24a69b432ff46315ad040.setIcon(icon_f8545271be9e474f902cccd390b51916);
+        
+    
+        var popup_c8621f7639cc46faa072de57aab6c83d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d153914ff9644e118b47a0ee916c4546 = $(`<div id="html_d153914ff9644e118b47a0ee916c4546" style="width: 100.0%; height: 100.0%;">Greater Cooper AME Zion Church<br>Status: Planning</div>`)[0];
+            popup_c8621f7639cc46faa072de57aab6c83d.setContent(html_d153914ff9644e118b47a0ee916c4546);
+        
+
+        marker_549a12a099d24a69b432ff46315ad040.bindPopup(popup_c8621f7639cc46faa072de57aab6c83d)
+        ;
+
+        
+    
+    
+            var marker_cee02c3458294d0ab77448db7b91b907 = L.marker(
+                [37.81652, -122.26097],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_c678ebe4d67d432a9c43150060026d42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cee02c3458294d0ab77448db7b91b907.setIcon(icon_c678ebe4d67d432a9c43150060026d42);
+        
+    
+        var popup_2a39b836292143cb9953e08cdd08b33d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa1703599a1b4a68bf32c6cb4926c70f = $(`<div id="html_fa1703599a1b4a68bf32c6cb4926c70f" style="width: 100.0%; height: 100.0%;">Oakland Peace Center<br>Status: Exploring</div>`)[0];
+            popup_2a39b836292143cb9953e08cdd08b33d.setContent(html_fa1703599a1b4a68bf32c6cb4926c70f);
+        
+
+        marker_cee02c3458294d0ab77448db7b91b907.bindPopup(popup_2a39b836292143cb9953e08cdd08b33d)
+        ;
+
+        
+    
+    
+            var marker_8f3adcab471745b6bd72690db3212c64 = L.marker(
+                [37.82324, -122.276835],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_392d01baa3ab4dc196014969cc9ad5e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8f3adcab471745b6bd72690db3212c64.setIcon(icon_392d01baa3ab4dc196014969cc9ad5e2);
+        
+    
+        var popup_9998d0b89d4147aabe6da84ad62b4a21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_177e12c4a1cd4140a91a87275d4962ba = $(`<div id="html_177e12c4a1cd4140a91a87275d4962ba" style="width: 100.0%; height: 100.0%;">St. Mary's Center<br>Status: Planning</div>`)[0];
+            popup_9998d0b89d4147aabe6da84ad62b4a21.setContent(html_177e12c4a1cd4140a91a87275d4962ba);
+        
+
+        marker_8f3adcab471745b6bd72690db3212c64.bindPopup(popup_9998d0b89d4147aabe6da84ad62b4a21)
+        ;
+
+        
+    
+    
+            var marker_a38c28d434884121b685388412ba2194 = L.marker(
+                [37.76098, -122.15095],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_36194f678cc2478b87b40bd17c51b051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a38c28d434884121b685388412ba2194.setIcon(icon_36194f678cc2478b87b40bd17c51b051);
+        
+    
+        var popup_4ad9d37646664a218a6b9ce428a40379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef83f17f574d47a29fcaf8b719b1db95 = $(`<div id="html_ef83f17f574d47a29fcaf8b719b1db95" style="width: 100.0%; height: 100.0%;">United Lutheran Church of Oakland<br>Status: Exploring</div>`)[0];
+            popup_4ad9d37646664a218a6b9ce428a40379.setContent(html_ef83f17f574d47a29fcaf8b719b1db95);
+        
+
+        marker_a38c28d434884121b685388412ba2194.bindPopup(popup_4ad9d37646664a218a6b9ce428a40379)
+        ;
+
+        
+    
+    
+            var marker_6fa6cda7972a4f77bfbde72a3536f74b = L.marker(
+                [37.744385, -122.194605],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_53d14479ab114765a56521968210a466 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6fa6cda7972a4f77bfbde72a3536f74b.setIcon(icon_53d14479ab114765a56521968210a466);
+        
+    
+        var popup_457ebb12bb144d0a82f317e6362f9e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eecb0afa7c84535a09658df075a1a24 = $(`<div id="html_1eecb0afa7c84535a09658df075a1a24" style="width: 100.0%; height: 100.0%;">City of Refuge, United Church of Christ<br>Status: Exploring</div>`)[0];
+            popup_457ebb12bb144d0a82f317e6362f9e40.setContent(html_1eecb0afa7c84535a09658df075a1a24);
+        
+
+        marker_6fa6cda7972a4f77bfbde72a3536f74b.bindPopup(popup_457ebb12bb144d0a82f317e6362f9e40)
+        ;
+
+        
+    
+    
+            var marker_5e8755306d464ae2a99e2bdee18ed2dd = L.marker(
+                [37.76824, -122.19326],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_7f749604af7647a5bd80c817958f50ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_5e8755306d464ae2a99e2bdee18ed2dd.setIcon(icon_7f749604af7647a5bd80c817958f50ed);
+        
+    
+        var popup_a5fc39cc8e234383b37db836957247c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e04b0e401efd40308b8c1c7bc04a8ef6 = $(`<div id="html_e04b0e401efd40308b8c1c7bc04a8ef6" style="width: 100.0%; height: 100.0%;">A Diamond in the Ruff, Inc<br>Status: None</div>`)[0];
+            popup_a5fc39cc8e234383b37db836957247c3.setContent(html_e04b0e401efd40308b8c1c7bc04a8ef6);
+        
+
+        marker_5e8755306d464ae2a99e2bdee18ed2dd.bindPopup(popup_a5fc39cc8e234383b37db836957247c3)
+        ;
+
+        
+    
+    
+            var marker_b983e8d2b0e544ec906dee6f350ea8a7 = L.marker(
+                [37.84893, -122.27328],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_9ab8870ea7b247e29cba082a336ef47d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b983e8d2b0e544ec906dee6f350ea8a7.setIcon(icon_9ab8870ea7b247e29cba082a336ef47d);
+        
+    
+        var popup_af7dc62ff04d49af96ec5074f111b397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b52aac9a154baba94f81ae52a89851 = $(`<div id="html_11b52aac9a154baba94f81ae52a89851" style="width: 100.0%; height: 100.0%;">Ephesian Church of God in Christ<br>Status: Planning</div>`)[0];
+            popup_af7dc62ff04d49af96ec5074f111b397.setContent(html_11b52aac9a154baba94f81ae52a89851);
+        
+
+        marker_b983e8d2b0e544ec906dee6f350ea8a7.bindPopup(popup_af7dc62ff04d49af96ec5074f111b397)
+        ;
+
+        
+    
+    
+            var marker_018d105f3a54467d91707f7fe38ee567 = L.marker(
+                [37.82604, -122.2655],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_49ad7a28f1374be98e8cd365db08c120 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_018d105f3a54467d91707f7fe38ee567.setIcon(icon_49ad7a28f1374be98e8cd365db08c120);
+        
+    
+        var popup_8d21927d65004569996ce225f57db1d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66607461c47643a4a49b9cdab8103d97 = $(`<div id="html_66607461c47643a4a49b9cdab8103d97" style="width: 100.0%; height: 100.0%;">First AME Oakland (FAME)<br>Status: Exploring</div>`)[0];
+            popup_8d21927d65004569996ce225f57db1d6.setContent(html_66607461c47643a4a49b9cdab8103d97);
+        
+
+        marker_018d105f3a54467d91707f7fe38ee567.bindPopup(popup_8d21927d65004569996ce225f57db1d6)
+        ;
+
+        
+    
+    
+            var marker_9ca3d8eb7e854f18b1f1528e6df1fe35 = L.marker(
+                [37.86711, -122.26208],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_bbd534ff7f7f4fcbb4d7755eb907e669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9ca3d8eb7e854f18b1f1528e6df1fe35.setIcon(icon_bbd534ff7f7f4fcbb4d7755eb907e669);
+        
+    
+        var popup_de62e611197c44d9be12509137126840 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6f908de580e4769a50c80392d1546b4 = $(`<div id="html_a6f908de580e4769a50c80392d1546b4" style="width: 100.0%; height: 100.0%;">First Congregational Church of Berkeley, United Church of Christ<br>Status: Exploring</div>`)[0];
+            popup_de62e611197c44d9be12509137126840.setContent(html_a6f908de580e4769a50c80392d1546b4);
+        
+
+        marker_9ca3d8eb7e854f18b1f1528e6df1fe35.bindPopup(popup_de62e611197c44d9be12509137126840)
+        ;
+
+        
+    
+    
+            var marker_d48db80c83b5416f8c2e7c55300699fa = L.marker(
+                [37.813315, -122.28434],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_6dc526db2fb14008bb762303776e16d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d48db80c83b5416f8c2e7c55300699fa.setIcon(icon_6dc526db2fb14008bb762303776e16d3);
+        
+    
+        var popup_12b0f3d336be4141b874fab38a65edbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05b9b55623f84834b9b5a3c1b5832715 = $(`<div id="html_05b9b55623f84834b9b5a3c1b5832715" style="width: 100.0%; height: 100.0%;">Friendship CDC/Friendship Christian Church Center<br>Status: Planning</div>`)[0];
+            popup_12b0f3d336be4141b874fab38a65edbe.setContent(html_05b9b55623f84834b9b5a3c1b5832715);
+        
+
+        marker_d48db80c83b5416f8c2e7c55300699fa.bindPopup(popup_12b0f3d336be4141b874fab38a65edbe)
+        ;
+
+        
+    
+    
+            var marker_06b182f33d184a1fa3668c01e2e12425 = L.marker(
+                [37.85485, -122.26798],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_58239077196f4e5a8e3ea377a07f1643 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_06b182f33d184a1fa3668c01e2e12425.setIcon(icon_58239077196f4e5a8e3ea377a07f1643);
+        
+    
+        var popup_0a3f9a4f317a44049f2d0efd9851de4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4053bd40ca324b5fa59c28c7ef708924 = $(`<div id="html_4053bd40ca324b5fa59c28c7ef708924" style="width: 100.0%; height: 100.0%;">St. Paul AME Church of Berkeley<br>Status: Planning</div>`)[0];
+            popup_0a3f9a4f317a44049f2d0efd9851de4b.setContent(html_4053bd40ca324b5fa59c28c7ef708924);
+        
+
+        marker_06b182f33d184a1fa3668c01e2e12425.bindPopup(popup_0a3f9a4f317a44049f2d0efd9851de4b)
+        ;
+
+        
+    
+    
+            var marker_4cc02945fa9648319c1de5371e742b19 = L.marker(
+                [37.80734, -122.30044],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_711084e58de64a9ebf7a270fc982592f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4cc02945fa9648319c1de5371e742b19.setIcon(icon_711084e58de64a9ebf7a270fc982592f);
+        
+    
+        var popup_1f734fb9a3ee4c46bdb14eea16002a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48f92623c70a4ee5985c947d54697987 = $(`<div id="html_48f92623c70a4ee5985c947d54697987" style="width: 100.0%; height: 100.0%;">West Side Missionary Baptist Church<br>Status: None</div>`)[0];
+            popup_1f734fb9a3ee4c46bdb14eea16002a29.setContent(html_48f92623c70a4ee5985c947d54697987);
+        
+
+        marker_4cc02945fa9648319c1de5371e742b19.bindPopup(popup_1f734fb9a3ee4c46bdb14eea16002a29)
+        ;
+
+        
+    
+    
+            var marker_42d9a03cafa6426ba26e7a2d2d2a13ec = L.marker(
+                [37.772155, -122.191805],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_527672bea0b9480aacb6ba516b886a37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_42d9a03cafa6426ba26e7a2d2d2a13ec.setIcon(icon_527672bea0b9480aacb6ba516b886a37);
+        
+    
+        var popup_8a99136b92ce470ab4dac4f0eec8376a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c9814c90384fd698aae5693255fe1c = $(`<div id="html_f6c9814c90384fd698aae5693255fe1c" style="width: 100.0%; height: 100.0%;">Canaan Christian Covenant Missionary Baptist Church<br>Status: None</div>`)[0];
+            popup_8a99136b92ce470ab4dac4f0eec8376a.setContent(html_f6c9814c90384fd698aae5693255fe1c);
+        
+
+        marker_42d9a03cafa6426ba26e7a2d2d2a13ec.bindPopup(popup_8a99136b92ce470ab4dac4f0eec8376a)
+        ;
+
+        
+    
+    
+            var marker_0cad2b26a0c34b29987307301884d9f1 = L.marker(
+                [37.811865, -122.29784],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_dacb75612ffc476ebb9adef67e83b48e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_0cad2b26a0c34b29987307301884d9f1.setIcon(icon_dacb75612ffc476ebb9adef67e83b48e);
+        
+    
+        var popup_683408b21b484e56a96972f36a4351cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fb76eb56fad4ef1be3757383a60f277 = $(`<div id="html_6fb76eb56fad4ef1be3757383a60f277" style="width: 100.0%; height: 100.0%;">Mount Zion Missionary Baptist Church<br>Status: None</div>`)[0];
+            popup_683408b21b484e56a96972f36a4351cf.setContent(html_6fb76eb56fad4ef1be3757383a60f277);
+        
+
+        marker_0cad2b26a0c34b29987307301884d9f1.bindPopup(popup_683408b21b484e56a96972f36a4351cf)
+        ;
+
+        
+    
+    
+            var marker_8bbdbfcce3584a128b080b6000524390 = L.marker(
+                [37.53774, -122.02939],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_68d68ba4514343b695d1e341cff14d8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8bbdbfcce3584a128b080b6000524390.setIcon(icon_68d68ba4514343b695d1e341cff14d8d);
+        
+    
+        var popup_3623281fb7af4fe3ab368be00b19c2ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_202f5243afcf46b9bde26c43ba53d801 = $(`<div id="html_202f5243afcf46b9bde26c43ba53d801" style="width: 100.0%; height: 100.0%;">Solid Rock Community Services, Inc<br>Status: None</div>`)[0];
+            popup_3623281fb7af4fe3ab368be00b19c2ad.setContent(html_202f5243afcf46b9bde26c43ba53d801);
+        
+
+        marker_8bbdbfcce3584a128b080b6000524390.bindPopup(popup_3623281fb7af4fe3ab368be00b19c2ad)
+        ;
+
+        
+    
+    
+            var marker_20703477bc1d45c58aac4fdb4fbdafeb = L.marker(
+                [37.640745, -122.075845],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_40b5a8558b1a4db388f794c3b4459c31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_20703477bc1d45c58aac4fdb4fbdafeb.setIcon(icon_40b5a8558b1a4db388f794c3b4459c31);
+        
+    
+        var popup_bbfc528e5f694514b4d4535cd253c358 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8763446bfca7413b9b88c0096d36ebcc = $(`<div id="html_8763446bfca7413b9b88c0096d36ebcc" style="width: 100.0%; height: 100.0%;">South Hayward Methodist Church<br>Status: None</div>`)[0];
+            popup_bbfc528e5f694514b4d4535cd253c358.setContent(html_8763446bfca7413b9b88c0096d36ebcc);
+        
+
+        marker_20703477bc1d45c58aac4fdb4fbdafeb.bindPopup(popup_bbfc528e5f694514b4d4535cd253c358)
+        ;
+
+        
+    
+    
+            var marker_b7c4b6956124480bb4bc4a0bc04c5a60 = L.marker(
+                [37.90152, -122.06829],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_d87e6e230c6c4667ac3ecdf5167037ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b7c4b6956124480bb4bc4a0bc04c5a60.setIcon(icon_d87e6e230c6c4667ac3ecdf5167037ac);
+        
+    
+        var popup_84febc9722284a27a1bf1007de8a921e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9c36460ab2c486fa592f1a177535175 = $(`<div id="html_b9c36460ab2c486fa592f1a177535175" style="width: 100.0%; height: 100.0%;">St. Paul's Episcopal Church<br>Status: Built</div>`)[0];
+            popup_84febc9722284a27a1bf1007de8a921e.setContent(html_b9c36460ab2c486fa592f1a177535175);
+        
+
+        marker_b7c4b6956124480bb4bc4a0bc04c5a60.bindPopup(popup_84febc9722284a27a1bf1007de8a921e)
+        ;
+
+        
+    
+    
+            var marker_b462508210be4aba8e6c43f279d694cd = L.marker(
+                [37.86038, -122.16411],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_78b7c4d9d809400fba440a9ca3bf6a8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b462508210be4aba8e6c43f279d694cd.setIcon(icon_78b7c4d9d809400fba440a9ca3bf6a8a);
+        
+    
+        var popup_17d9ef4714384fc5aeca198e47ee4d58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28f20987b21440e08ec1296fceed81d3 = $(`<div id="html_28f20987b21440e08ec1296fceed81d3" style="width: 100.0%; height: 100.0%;">Holy Shepherd Lutheran Church<br>Status: Exploring</div>`)[0];
+            popup_17d9ef4714384fc5aeca198e47ee4d58.setContent(html_28f20987b21440e08ec1296fceed81d3);
+        
+
+        marker_b462508210be4aba8e6c43f279d694cd.bindPopup(popup_17d9ef4714384fc5aeca198e47ee4d58)
+        ;
+
+        
+    
+    
+            var marker_9bd48485ba1d4493ab5e7d0384cb6b95 = L.marker(
+                [37.88418, -122.185155],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_8cfee4784422452ab24daaf50be46a63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9bd48485ba1d4493ab5e7d0384cb6b95.setIcon(icon_8cfee4784422452ab24daaf50be46a63);
+        
+    
+        var popup_ca9c56700a07440585756e2b24d24e21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56d74227d458416b8507db95d16e47a3 = $(`<div id="html_56d74227d458416b8507db95d16e47a3" style="width: 100.0%; height: 100.0%;">Santa Maria Church<br>Status: Planning</div>`)[0];
+            popup_ca9c56700a07440585756e2b24d24e21.setContent(html_56d74227d458416b8507db95d16e47a3);
+        
+
+        marker_9bd48485ba1d4493ab5e7d0384cb6b95.bindPopup(popup_ca9c56700a07440585756e2b24d24e21)
+        ;
+
+        
+    
+    
+            var marker_e399325853384f1db299672b24d64967 = L.marker(
+                [37.88537, -122.18949],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_ed41338240ed4eafaa241c6110d7f4f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e399325853384f1db299672b24d64967.setIcon(icon_ed41338240ed4eafaa241c6110d7f4f6);
+        
+    
+        var popup_7eaa72e1ddb14729a65fac30271e4cbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c136e837f0a4814b8abb0e160ff488e = $(`<div id="html_5c136e837f0a4814b8abb0e160ff488e" style="width: 100.0%; height: 100.0%;">Orinda Community Church<br>Status: Planning</div>`)[0];
+            popup_7eaa72e1ddb14729a65fac30271e4cbd.setContent(html_5c136e837f0a4814b8abb0e160ff488e);
+        
+
+        marker_e399325853384f1db299672b24d64967.bindPopup(popup_7eaa72e1ddb14729a65fac30271e4cbd)
+        ;
+
+        
+    
+    
+            var marker_f0e96077bb0246d1b711b25d1d4907f6 = L.marker(
+                [37.89817, -122.17286],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_cfd158d80c984bc1ab2195da04aa324f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f0e96077bb0246d1b711b25d1d4907f6.setIcon(icon_cfd158d80c984bc1ab2195da04aa324f);
+        
+    
+        var popup_1769b805fb46473992d5eb8c62c2ffde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f83ae035a1440a89af8646f9fe0c48d = $(`<div id="html_4f83ae035a1440a89af8646f9fe0c48d" style="width: 100.0%; height: 100.0%;">St. Stephen's Church<br>Status: Exploring</div>`)[0];
+            popup_1769b805fb46473992d5eb8c62c2ffde.setContent(html_4f83ae035a1440a89af8646f9fe0c48d);
+        
+
+        marker_f0e96077bb0246d1b711b25d1d4907f6.bindPopup(popup_1769b805fb46473992d5eb8c62c2ffde)
+        ;
+
+        
+    
+    
+            var marker_719c7b8db77744d0b9817f71069989a4 = L.marker(
+                [37.856435, -122.154215],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_8c5e83edddd94811903a4bb016af0967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_719c7b8db77744d0b9817f71069989a4.setIcon(icon_8c5e83edddd94811903a4bb016af0967);
+        
+    
+        var popup_f5345140ca3f430fb86a3944cc687db3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e1ee42a51b4549a5e7423009093a2e = $(`<div id="html_52e1ee42a51b4549a5e7423009093a2e" style="width: 100.0%; height: 100.0%;">St. John's Orthodox Church<br>Status: Exploring</div>`)[0];
+            popup_f5345140ca3f430fb86a3944cc687db3.setContent(html_52e1ee42a51b4549a5e7423009093a2e);
+        
+
+        marker_719c7b8db77744d0b9817f71069989a4.bindPopup(popup_f5345140ca3f430fb86a3944cc687db3)
+        ;
+
+        
+    
+    
+            var marker_03149ca4903646318ce09dd497b81292 = L.marker(
+                [37.291485, -121.874693],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_40d05959c6994b89ac862d68d4625bb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_03149ca4903646318ce09dd497b81292.setIcon(icon_40d05959c6994b89ac862d68d4625bb2);
+        
+    
+        var popup_e48838e2116449e29fabf996c91373a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_277c3cc1cfca4f11859bcfdd91ebc305 = $(`<div id="html_277c3cc1cfca4f11859bcfdd91ebc305" style="width: 100.0%; height: 100.0%;">Cathedral of Faith<br>Status: Planning</div>`)[0];
+            popup_e48838e2116449e29fabf996c91373a8.setContent(html_277c3cc1cfca4f11859bcfdd91ebc305);
+        
+
+        marker_03149ca4903646318ce09dd497b81292.bindPopup(popup_e48838e2116449e29fabf996c91373a8)
+        ;
+
+        
+    
+    
+            var marker_6b4a92df276d4daebccdfbca1962d008 = L.marker(
+                [37.315825, -121.923176],
+                {}
+            ).addTo(map_1df6a4fddf6d4e7083d1e194c1c97ceb);
+        
+    
+            var icon_da042c3f2a304e21b3284caf9e35acc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6b4a92df276d4daebccdfbca1962d008.setIcon(icon_da042c3f2a304e21b3284caf9e35acc6);
+        
+    
+        var popup_cb934fcea71c44e48d3e5e3c45665137 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_966c653e26d042fca6bfbdd500e0d006 = $(`<div id="html_966c653e26d042fca6bfbdd500e0d006" style="width: 100.0%; height: 100.0%;">Immanuel Evangelical Lutheran Church<br>Status: Planning</div>`)[0];
+            popup_cb934fcea71c44e48d3e5e3c45665137.setContent(html_966c653e26d042fca6bfbdd500e0d006);
+        
+
+        marker_6b4a92df276d4daebccdfbca1962d008.bindPopup(popup_cb934fcea71c44e48d3e5e3c45665137)
+        ;
+
+        
+    
+</script>
