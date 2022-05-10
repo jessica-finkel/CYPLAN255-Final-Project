@@ -7,8 +7,6 @@
 <img align="left" src="https://user-images.githubusercontent.com/98304807/167493657-83f1a98e-de76-4a64-a7c4-33b2fa3a86d0.png" width="300" style="float:left; padding-right:10px"> Berkeley is a city of approximately 120,000 people in the San Francisco Bay Area. With a median household income of $85,530, compared to $75,235 in California as a whole, Berkeley is a relatively affluent, high opportunity area. However, wealth is distributed unevenly within the city, with a growing number of residents unable to afford housing and other basic needs. Over the last two decades rising rents and property values, combined with a growing population, have produced, as the Anti-Eviction Mapping Project (AEMP) put it, “an extreme crisis of housing affordability and displacement.” In its March 2022 report, AEMP found that “between 2005-2019, the median gross rent for the city increased by over 50%,” and that “the average rent in Berkeley in 2019 was approximately $3,165 per month, only affordable to a household with an annual income of $130,000 or more.” Historically Black neighborhoods and other communities of color have been most impacted by this crisis, the legacy of more than a century of exclusionary zoning and anti-development policies that continue to reinforce patterns of racial residential segregation. Decades of restrictive land use policies have limited the production of new housing in Berkeley, and especially affordable housing. The city failed to meet its Regional Housing Needs Allocation (RHNA) goals for the 2007-2014 period, building just over 50% of its total allocated 2,431 units. Of those constructed, less than 14% (163 units) were affordable to very low- or low-income households. Amid growing public concern about the lack of affordable housing, homelessness, and ongoing gentrification and displacement, local policymakers are urgently searching for opportunities to add to the city's housing stock, particularly for seniors, people with disabilities, and other underserved populations.  
   
 In this context, one recently completed housing development points to a promising strategy: enabling churches, synagogues, and other religious institutions to convert underutilized parking lots, buildings, and other facilities into affordable housing. **<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/explore_map.html" target="_blank">Jordan Court</a>**, located in North Berkeley and opened in March 2022, was developed through a joint venture partnership betweep All Souls Episcopal Parish (All Souls), an inclusive, progressive church, and Satellite Affordable Housing Associates (SAHA). Providing much-needed senior housing, the building contains 34 affordable studios for senior residents earning 20-60% of the Area Median Income (AMI), along with an on-site manager's unit and space for All Souls' use.  
-
-
   
 <p float="left">
   <img src="http://www.allsoulsparish.org/wp-content/uploads/cache/2015/10/church-on-cedar/1459840523.jpg" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167351158-ad1787e4-2a98-4e27-a139-f59571d83911.jpg" width="250" /> <img src="https://user-images.githubusercontent.com/98304807/167451971-eb2bdfe9-8e36-4445-8bd3-6f8226a9ab72.JPG" width="250" />
@@ -82,26 +80,25 @@ Berkeley is an extremely residential city, and most neighborhoods are zoned for 
 
 ### YIGBY in Berkeley
 
-The congregations pursuing housing on their land in Berkeley and the Bay Area are more likely to be in low-resource and BIPOC neighborhoods.
+The congregations pursuing housing on their land in Berkeley and the Bay Area are more likely to be in low-resource and BIPOC neighborhoods. 
+
+(Coming soon)
   
   
 ### YIGBY in East Bay
-
-
+  
 **<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">Click here to explore congregations building housing on their land!</a>**
 
+(Coming soon)
+  
+## Conclusions and Next Steps  
+  
 
-
-Add: Opportunity Maps and congregations
-Add: % POC Map and congregations
-
-## Conclusions and Next Steps
-TKTKT
-Prototype YIGBY Map
-
-**[click here:](https://jessica-finkel.github.io/CYPLAN255-Final-Project/explore_map.html)** 
+(Coming soon)
 
 ## Acknowledgements
 I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner Drew Liming for doing research to flesh out my list of YIGBY congregations.  
 
 ## References
+
+(Coming soon)
