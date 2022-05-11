@@ -90,7 +90,7 @@ According to data from the Alameda County Assessor's Office, there are 104 relig
 
 ![congreg_zoningtype](https://user-images.githubusercontent.com/98304807/167721771-23c3b14b-df56-424b-aaf4-da835954ed58.png)
 
-My dataset of YIGBY congregations only contains 5 congregations thus far, but they are noticeably concentrated in South Berkeley. This aligns with recent reports such as **<a href="https://www.berkeleyside.org/2022/03/13/south-berkeley-black-churches-are-building-affordable-housing-on-their-properties" target="_blank">this article</a>** from Berkeleyside, which noted that several South Berkeley Black churches are looking to redevelop their sites into affordable housing to combat intense gentrification and displacement. 
+My dataset of YIGBY congregations only contains 5 congregations in Berkeley thus far, but they are noticeably concentrated in South Berkeley. This aligns with recent reports such as **<a href="https://www.berkeleyside.org/2022/03/13/south-berkeley-black-churches-are-building-affordable-housing-on-their-properties" target="_blank">this article</a>** from Berkeleyside, which noted that several South Berkeley Black churches are looking to redevelop their sites into affordable housing to combat intense gentrification and displacement. 
 
 ![berk_congs](https://user-images.githubusercontent.com/98304807/167738365-146756d5-c741-44be-8c72-1869c0bc6e45.png)
 
