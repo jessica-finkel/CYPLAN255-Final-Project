@@ -2,7 +2,7 @@
 
 *Jessica Finkel, CP255 Urban Informatics + Visualization (Spring 2022)*            
 
-## Background  
+# Background  
 
 <img align="left" src="https://user-images.githubusercontent.com/98304807/167493657-83f1a98e-de76-4a64-a7c4-33b2fa3a86d0.png" width="300" style="float:left; padding-right:10px"> Berkeley is a city of approximately 120,000 people in the San Francisco Bay Area. With a median household income of $85,530, compared to $75,235 in California as a whole, Berkeley is a relatively affluent, high opportunity area. However, wealth is distributed unevenly within the city, with a growing number of residents unable to afford housing and other basic needs. Over the last two decades rising rents and property values, combined with a growing population, have produced, as the Anti-Eviction Mapping Project (AEMP) put it, “an extreme crisis of housing affordability and displacement.” In its March 2022 report, AEMP found that “between 2005-2019, the median gross rent for the city increased by over 50%,” and that “the average rent in Berkeley in 2019 was approximately $3,165 per month, only affordable to a household with an annual income of $130,000 or more.” Historically Black neighborhoods and other communities of color have been most impacted by this crisis, the legacy of more than a century of exclusionary zoning and anti-development policies that continue to reinforce patterns of racial residential segregation. Decades of restrictive land use policies have limited the production of new housing in Berkeley, and especially affordable housing. The city failed to meet its Regional Housing Needs Allocation (RHNA) goals for the 2007-2014 period, building just over 50% of its total allocated 2,431 units. Of those constructed, less than 14% (163 units) were affordable to very low- or low-income households. Amid growing public concern about the lack of affordable housing, homelessness, and ongoing gentrification and displacement, local policymakers are urgently searching for opportunities to add to the city's housing stock, particularly for seniors, people with disabilities, and other underserved populations.  
   
@@ -20,14 +20,14 @@ In this context, one recently completed housing development points to a promisin
 When All Souls first began exploring the possibility of redeveloping a portion of its land for housing in 2014, the Parish had relatively few local examples to follow. However, in recent years a "Yes in God's Backyard" or YIGBY movement has emerged. Gathering steam since the nickname was coined in 2019, a growing number of religious institutions across California, as well as other high-cost places like Seattle, New York City, the Washington, DC area, Atlanta, Denver, Miami, and San Antonio, are considering similar projects. While the motivations vary from congregation to congregation, a key factor driving this trend is a decline in membership. In part, this reflects a broader pattern of waning religiosity in the United States, as fewer people formally join religious institutions or regularly attend religious services, especially among younger generations. Yet for some institutions, particularly those in historically marginalized communities, this decline has been exacerbated as rising housing costs and gentrification displace their congregants and staff. The drop in membership has left many religious institutions land rich and cash poor, with valuable land assets but lacking the financial resources and demand to maintain and improve their facilities.  
   
   
-## Research Question  
+# Research Question  
 
 In researching Jordan Court and the YIGBY movement for my capstone project, I found that there is significant and growing interest in this model among congregations and policymakers in California, but information is difficult to find. Information is decentralized and largely shared informally via word-of-mouth, making it challenging to identify patterns, pitfalls, and successful policy or programmatic initiatives related to this model. In addition, several people I interviewed observed that many of the congregations pursuing this path are majority-Black churches in neighborhoods facing heavy displacement pressure. I also learned that exclusionary zoning and land use barriers frequently pose an obstacle for congregations looking to redevelop their land. These findings guided my research question for this project:
 
 Are there sociospatial patterns with respect to the congregations in the Bay Area that are pursuing housing development on their property? In particular, do the data support the anecdotal evidence that majority-Black churches are driving this trend?
 
   
-## Methodology
+# Methodology
 
 To explore this question, I relied on the following datasets:
 - 2019 5-year American Community Survey data, by census tract (accessed via API)
@@ -52,9 +52,9 @@ A few key key notes about my approach to the the data:
 - I compiled the list of YIGBY congregations from news reports, press statements, interviews, blog posts, and social media. I used the Mapbox API along with Shapely to geocode the addresses of congregations in my novel dataset and create point geometry for each site. While I came across institutions in southern California and a handful in Marin County, for the purpose of this project I limited the dataset to congregations in Alameda, Contra Costa, and Santa Clara Counties. Even within these three counties, the list is quite preliminary. I hope to continue to build out the dataset as I continue research in this area, adding more congregations and more details, such as denomination, surrounding zoning designation, housing typology, and number of housing units. My goal is to create a prototype of an interactive map that congregations, policymakers, and researches could use to find centralized information about the movement and policy and programmatic initiatives to facilitate it. Initially I hoped to calculate the development potential on land coded for religious use in Berkeley, and I explored using OSMnx to gather building footprint and location data. In the end, though, I was not confident in my tagging scheme and opted against pursuing this avenue for this project. 
 
   
-## Findings  
+# Findings  
 
-### Berkeley Context
+## Berkeley Context
   
 I began by analyzing sociodemographic data for Berkeley from the Census Bureau and the Othering and Belonging Institute. As expected, I found that the city is heavily segregated and that race/ethnicity is correlated with spatial patterns of wealth, opportunity, and land use. In general, the city is predominantly White, particularly in census tracts in North Berkeley and the Berkeley Hills. Reflecting a history of redlining and exlusionary land use policies in the city, census tracts with a higher percentage of White residents are generally higher resourced, with a higher median income and lower housing density than those with a higher percentage of BIPOC residents.  
 
@@ -80,9 +80,9 @@ Berkeley is an extremely residential city, and most neighborhoods are zoned for 
 
 ![berk_zoning_x](https://user-images.githubusercontent.com/98304807/167708123-31edb20d-cce8-4955-aee7-d7e11600ed5a.png)
 
-### YIGBY in Berkeley
+## YIGBY in Berkeley
 
-According to data from the Alameda County Assessor's Office, there are 104 religious use parcels in Berkeley. Not surprising given that most of the city is zoned for residential use, most of these sites are in residential areas, and particularly in areas zoned for medium-density housing. Exclusionary zoning has historically limited affordable housing production in California, but recent legislative initiatives like SB 35 seek to overcome this barrier. Effective as of January 1, 2018, cities in California not meeting their housing production goals under RHNA must grant ministerial approval to housing developments on sites zoned for residential or mixed use that meet certain affordability thresholds. My analysis suggests that 73% (76 total) religious use parcels are in areas zoned residential, with another 7% (7 total) zoned for mixed use. Notably, another 20% (21 total) religious use parcels are in areas zoned commercial. While there are limitations in my analysis due to the way I coded zoning categories, this suggests that at least some congregations would face challenges building affordable housing. SB 899 (D-Wiener) would have expanded on SB 35 by giving ministerial approval to certain affordable housing projects on land owned by religious institutions in areas zoned for commercial use, in addition to residential or mixed use, but it failed to pass the California legislature in 2020. 
+According to data from the Alameda County Assessor's Office, there are 104 religious use parcels in Berkeley. Not surprising given that most of the city is zoned for residential use, the majority of these sites are in residential areas, and particularly in areas zoned for medium-density housing. Exclusionary zoning has historically limited affordable housing production in California, but recent legislative initiatives like SB 35 seek to overcome this barrier. Effective as of January 1, 2018, cities in California not meeting their housing production goals under RHNA must grant ministerial approval to housing developments on sites zoned for residential or mixed use that meet certain affordability thresholds. My analysis suggests that 73% (76 total) religious use parcels are in areas zoned residential, with another 7% (7 total) zoned for mixed use. Notably, another 20% (21 total) religious use parcels are in areas zoned commercial. While there are limitations in my analysis due to the way I coded zoning categories, this suggests that at least some congregations would face challenges building affordable housing. SB 899 (D-Wiener) would have expanded on SB 35 by giving ministerial approval to certain affordable housing projects on land owned by religious institutions in areas zoned for commercial use, in addition to residential or mixed use, but it failed to pass the California legislature in 2020. 
 
 ![relig_x_zone](https://user-images.githubusercontent.com/98304807/167708332-c4e4f3e9-b299-4330-a3e2-496a4fe21eee.png)
 
@@ -95,17 +95,22 @@ My dataset of YIGBY congregations only contains 5 congregations thus far, but th
 ![berk_congs](https://user-images.githubusercontent.com/98304807/167738365-146756d5-c741-44be-8c72-1869c0bc6e45.png)
 
 
-### YIGBY in East Bay
-  
+## YIGBY in East Bay  
+
+
+![alameda_congs](https://user-images.githubusercontent.com/98304807/167745303-4daf5556-597a-4515-90f4-7badb8b91f29.png)
+![costa_congs](https://user-images.githubusercontent.com/98304807/167745320-30c826d8-5464-4a23-a039-03595781f81b.png)
+![clara_congs](https://user-images.githubusercontent.com/98304807/167745333-ea363614-5c58-448c-b27f-b3c686c5cb55.png)
+
 **<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">Click here to explore congregations building housing on their land!</a>**
 
 (Coming soon)
   
-## Conclusions and Next Steps  
+# Conclusions and Next Steps  
   
 (Coming soon)
 
-## Acknowledgements
+# Acknowledgements
 I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner for helping me compile my list of YIGBY congregations. 
 
 ## References
