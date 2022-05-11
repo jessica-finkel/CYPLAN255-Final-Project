@@ -87,7 +87,9 @@ According to data from the Alameda County Assessor's Office, there are 104 relig
 
 ![relig_x_zone](https://user-images.githubusercontent.com/98304807/167708332-c4e4f3e9-b299-4330-a3e2-496a4fe21eee.png)
 
-![congreg_countxzone](https://user-images.githubusercontent.com/98304807/167721792-9a804198-92be-4d53-827e-f5a174b89ff9.jpg)
+![congreg_countxzone](https://user-images.githubusercontent.com/98304807/167721792-9a804198-92be-4d53-827e-f5a174b89ff9.jpg)  
+
+(Note: Areas zoned manufacturing, other, and mixed use-light industrial did not have any religious use parcels, so they are not included in this chart.)
 
 ![congreg_zoningtype](https://user-images.githubusercontent.com/98304807/167721771-23c3b14b-df56-424b-aaf4-da835954ed58.png)
 
