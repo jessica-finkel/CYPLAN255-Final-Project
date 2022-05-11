@@ -97,18 +97,18 @@ My dataset of YIGBY congregations only contains 5 congregations thus far, but th
 
 ## YIGBY in East Bay  
 
+Still a work in progress, but **<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">click here to explore congregations building housing on their land!</a>**
+
+My preliminary list of YIGBY congregations in Alameda, Contra Costa, and Santa Clara Counties included 31 religious institutions. The maps below suggest a growing YIGBY movement, particularly in Alameda County. However, this could also reflect the fact that there is more information available about congregations pursuing this model. In particular, Alameda County funds a Housing Development Capacity Building Program for faith-based and community-based organizations, and LISC Bay Area, which manages the program, has published information about its participants online. Thus far the program has served two cohorts, with 7 faith-based groups in the first and 10 in the second. The maps also suggest that congregations building affordable housing are largely in low-resource areas and census tracts with a relatively high BIPOC population, but additional data would help tease out any true correlations.  
 
 ![alameda_congs](https://user-images.githubusercontent.com/98304807/167745303-4daf5556-597a-4515-90f4-7badb8b91f29.png)
 ![costa_congs](https://user-images.githubusercontent.com/98304807/167745320-30c826d8-5464-4a23-a039-03595781f81b.png)
 ![clara_congs](https://user-images.githubusercontent.com/98304807/167745333-ea363614-5c58-448c-b27f-b3c686c5cb55.png)
 
-**<a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">Click here to explore congregations building housing on their land!</a>**
-
-(Coming soon)
+ 
+# Next Steps  
   
-# Conclusions and Next Steps  
-  
-(Coming soon)
+With more time, I would have liked to deepen my analysis of the racial equity implications of this movement, as well as expand my analysis of congregations that might face zoning barriers to redeveloping their property into affordable housing. I would also like to build out the interactive map of institutions with more congregations and more information about each one. Local jurisdictions across California are exploring or implementing policy and programmatic initiatives such as affordable housing overlays on religious land, reduced minimum parking requirements, and capacity-building programs like the one in Alameda County to facilitiate this model as they face pressure from the state to meet RHNA targets. I hope to add these initiatives to the map as a resource to policymakers.
 
 # Acknowledgements
 I am indebted to my classmates Sydney Maves, Molly Sun, and Matthew Hui for their help troubleshooting code for this project. I also owe extra dishwashing shifts to my partner for helping me compile my list of YIGBY congregations. 
