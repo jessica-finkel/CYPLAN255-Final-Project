@@ -41,7 +41,7 @@ To explore this question, I relied on the following datasets:
 
 I used a Python Jupyter Notebook to complete my analysis, relying on a variety of libraries, particularly Matplotlib, Seaborn, Pandas, Geopandas, Shapely, Contextily, and Folium.
 
-A few key key notes about my approach to the the data:
+A few notes about my approach to the data:
 
 - Using code adapted from **<a href="https://github.com/agaidus/census_data_extraction/blob/master/census_mapper.py" target="_blank">here</a>** and **<a href="https://github.com/LucyMakesMaps/COVID_VaccineClinics/blob/main/Notebooks/DotMap.ipynb" target="_blank">here</a>**, I created a dot density map of demographics in Berkeley. It reflects 2019 5-year ACS race/ethnicity data at the census tract level retrieved from the Census Bureau's API. I chose to focus only on four race/ethnicity categories, non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic (referred to throughout this page as White, Black, Asian, and Hispanic, respectively) because the population identifying as other categories was too small to read clearly on the map. I clipped the map to an administrative boundary layer, which cut off additional dots in the western-most tract extending into the water. It would have been better to clip the map before generating the dots for that census tract polyon; however, this tract has a very small total population and this did not significantly change the information in the map. Following **<a href="https://www.axismaps.com/guide/dot-density" target="_blank">best practice</a>**, I projected the dot density map to EPSG 5070, which is an Albers Equal Area projection using the NAD 83 Datum.  
 
