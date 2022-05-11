@@ -78,7 +78,8 @@ I began by analyzing sociodemographic data for Berkeley from the Census Bureau a
 Berkeley is an extremely residential city, and most neighborhoods are zoned for low- and medium-density housing.
 
 
-![berk_zoning_x](https://user-images.githubusercontent.com/98304807/167708123-31edb20d-cce8-4955-aee7-d7e11600ed5a.png)
+![berk_zoning_x](https://user-images.githubusercontent.com/98304807/167708123-31edb20d-cce8-4955-aee7-d7e11600ed5a.png)  
+(Note: Unless disaggregated, "mixed use" includes both mixed use-residential and mixed use-light industrial.)
 
 ## YIGBY in Berkeley
 
