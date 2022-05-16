@@ -100,7 +100,7 @@ My dataset of YIGBY congregations only contains 5 congregations in Berkeley thus
 
 ## YIGBY in East Bay  
 
-**Still a work in progress, but <a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby.html" target="_blank">click here to explore congregations building housing on their land!</a>**
+**Still a work in progress, but <a href="https://jessica-finkel.github.io/CYPLAN255-Final-Project/east_bay_yigby2.html" target="_blank">click here to explore congregations building housing on their land!</a>**. The map includes the congregation's name and status in the development process.
 
 My preliminary list of YIGBY congregations in Alameda, Contra Costa, and Santa Clara Counties included 31 religious institutions. The maps below suggest a growing YIGBY movement, particularly in Alameda County. However, this could also reflect the fact that there is more information available about congregations pursuing this model. In particular, Alameda County funds a Housing Development Capacity Building Program for faith-based and community-based organizations, and LISC Bay Area, which manages the program, has published information about its participants online. Thus far the program has served two cohorts, with 7 faith-based groups in the first and 10 in the second. The maps also suggest that congregations building affordable housing are largely in low-resource areas and census tracts with a relatively high BIPOC population, but additional data on income, rent burden, development potential, and other factors would help tease out any true correlations and explain differences between, for example, census tracts along the bay and those farther inland.
 
